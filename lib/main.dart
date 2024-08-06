@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'diary.dart';
+import 'memo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '일기 목록',
+      title: '메모 목록',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

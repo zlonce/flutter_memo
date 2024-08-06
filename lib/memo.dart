@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'add_diary.dart';
+import 'add_memo.dart';
 
 class MemoList extends StatefulWidget {
   @override
